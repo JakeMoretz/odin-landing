@@ -141,15 +141,66 @@ h2 {
 .testimonial {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
     background-color: #e5e7eb;
     height: 300px;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .quote {
     font-size: 25px;
-    flex:1;
-    padding-left:200px;
-    padding-right:200px;
-    text-align: center;
+    padding-top: 75px;
+    width: 500px;
+    height: 300px;
   }
+
+  .thor {
+    text-align: right;
+  }
+
+.call-to-action {
+    color: white;
+    background-color:#3882f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px;
+    padding-left: 100px;
+    padding-right: 100px; 
+}
+   
+.cta{
+    display:flex;
+    align-items: center;
+    margin-bottom: -40px;
+}
+
+.ctap {
+    padding-bottom: 15px;
+    font-size: 15px;
+}
+
+.btn2 {
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    border: 2px solid white;
+    background-color: #3882f6;
+   
+}
+
+footer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    background-color: #1f2937;
+    color: #f9faf8
+
+}
+
+
+
+
